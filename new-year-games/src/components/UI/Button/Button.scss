@@ -5,10 +5,11 @@
     color: #fefefe;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 
     &:hover {
         background-color: #660000;
         transform: scale(1.2);
-        cursor: point;
+        
     }
 }
