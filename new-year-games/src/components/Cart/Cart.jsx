@@ -151,9 +151,6 @@ function Cart({question}) {
                     </div> 
                     : <>
                         <div className='cart__text'>{question.question}</div>
-                        {/* <div className='cart__audio'>
-                            <audio src={audioQuestion} controls autoplay></audio> 
-                        </div>  */}
                         {question.num <= 12 
                             ? <div className='cart__audio'>
                                 <audio src={audioQuestion} controls autoplay></audio> 
