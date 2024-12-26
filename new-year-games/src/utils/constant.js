@@ -7,12 +7,18 @@ export const GAMES = [
     }, 
     {
         id: 2,
+        name: 'Новогодний квиз', 
+        color: '#067600',
+        url: 'quiz',
+    },
+    {
+        id: 3,
         name: 'Где логика?', 
         color: '#ff0000',
         url: 'where-logics',
     }, 
     {
-        id: 3,
+        id: 4,
         name: 'Что? Где? Когда?', 
         color: '#13007f',
         url: 'www',
@@ -111,4 +117,132 @@ export const QUESTIONS_MELODY = [
         response: 'к/ф Чародеи - Песня о снежинке',
     }
 
-  ]
+]
+
+export const QUESTIONS_QUIZ = [
+    {
+        num: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 3,
+        question: '',
+        response: '',
+    },
+    {
+        num: 4,
+        question: '',
+        response: '',
+    },
+    {
+        num: 5,
+        question: '',
+        response: '',
+    },
+    {
+        num: 6,
+        question: '',
+        response: '',
+    },
+    {
+        num: 7,
+        question: '',
+        response: '',
+    },
+    {
+        num: 8,
+        question: '',
+        response: '',
+    },
+    {
+        num: 9,
+        question: '',
+        response: '',
+    },
+    {
+        num: 10,
+        question: '',
+        response: '',
+    },
+    {
+        num: 11,
+        question: '',
+        response: '',
+    },
+    {
+        num: 12,
+        question: '',
+        response: '',
+    },
+    {
+        num: 13,
+        question: '',
+        response: '',
+    },
+    {
+        num: 14,
+        question: '',
+        response: '',
+    },
+    {
+        num: 15,
+        question: '',
+        response: '',
+    },
+    {
+        num: 16,
+        question: '',
+        response: '',
+    },
+    {
+        num: 17,
+        question: '',
+        response: '',
+    },
+    {
+        num: 18,
+        question: '',
+        response: '',
+    },
+    {
+        num: 19,
+        question: '',
+        response: '',
+    },
+    {
+        num: 20,
+        question: '',
+        response: '',
+    },
+    {
+        num: 21,
+        question: '',
+        response: '',
+    },
+    {
+        num: 22,
+        question: '',
+        response: '',
+    },
+    {
+        num: 23,
+        question: '',
+        response: '',
+    },
+    {
+        num: 24,
+        question: '',
+        response: '',
+    },
+    {
+        num: 25,
+        question: '',
+        response: '',
+    },
+]
