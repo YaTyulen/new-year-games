@@ -64,4 +64,33 @@
         display: flex;
         justify-content: center;
     }
+
+    &__question-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__audio {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.cadr {
+    display: block;
+}
+
+.quiz {
+    &__options {
+        display: flex;
+        flex-direction: column;
+        font-family: Malahit;
+        color: #6c00ca;
+        font-size: 30px;
+        gap: 40px;
+    }
 }
