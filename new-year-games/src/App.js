@@ -10,6 +10,7 @@ import FieldMelody from './components/FieldMelody/FieldMelody';
 import Cart from './components/Cart/Cart';
 
 import {QUESTIONS_MELODY} from './utils/constant'
+import Quiz from './pages/Quiz/Quiz';
 
 function App() {
   
@@ -43,6 +44,7 @@ function App() {
           <Route path="field/melody/playing-field/question18" element={<Cart question={QUESTIONS_MELODY[17]}/>} />
 
 
+          <Route path="field/quiz" element={<Quiz/>} />
           <Route path="field/where-logics" element={<WhereLogics />} />
           <Route path="field/www" element={<WhatWhereWhen/>} />
         </Routes>

@@ -1,0 +1,96 @@
+.cart-question {
+    &__wrapper {
+        width: 80%;
+        height: 80%;
+        position: relative;
+        top: 30px;
+        border-radius: 20px;
+        border: 5px solid #ff0000;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+
+    &__content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &::after{
+            content: url('../../assets/tree.svg');
+            display: block;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            right: 20px;
+            bottom: 20px;
+        }
+    }
+
+    &__button-container {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__name {
+        font-size: 40px;
+        color: #6c00ca;
+    }
+
+    &__text {
+        font-family: Malahit;
+        font-size: 40px;
+        color: #6c00ca;
+        text-align: center;
+    }
+
+    &__response {
+        font-family: Malahit;
+        font-size: 40px;
+        color: #6c00ca;
+        text-align: center;
+    }
+
+    &__wrapper-response{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__question-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__audio {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.cadr {
+    display: block;
+}
+
+.quiz {
+    &__options {
+        display: flex;
+        flex-direction: column;
+        font-family: Malahit;
+        color: #6c00ca;
+        font-size: 30px;
+        gap: 40px;
+    }
+}
