@@ -281,3 +281,126 @@ export const QUESTIONS_QUIZ = [
         response: 'Отморозки',
     },
 ]
+
+export const QUESTION_LOGIC = [
+    {
+        num: 1,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 2,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 3,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 4,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 5,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 6,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 7,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 8,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 9,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 10,
+        round: 1,
+        question: '',
+        response: '',
+    },
+    {
+        num: 11,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 12,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 13,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 14,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 15,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 16,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 17,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 18,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 19,
+        round: 2,
+        question: '',
+        response: '',
+    },
+    {
+        num: 20,
+        round: 2,
+        question: '',
+        response: '',
+    },
+]
