@@ -1,5 +1,5 @@
 const initialState = {
-    game: null,
+    game: [],
 };
 
 const CURRENT_GAME = 'CURRENT_GAME'
@@ -8,7 +8,7 @@ const CURRENT_GAME = 'CURRENT_GAME'
 function currentGameReducer(state = initialState, action){
     switch (action.type) {
         case CURRENT_GAME:
-            return { ...state, updateCurrentGameAction };
+            return { ...state, game: action.payload };
         default:
             return state;
     }
