@@ -1,28 +1,46 @@
 export const GAMES = [
     {
         id: 1,
-        name: 'Угадай мелодию', 
-        color: '#cebd00',
+        name: '', 
+        color: '#00aa74',
         url: 'melody',
     }, 
     {
         id: 2,
-        name: 'Новогодний квиз', 
-        color: '#067600',
-        url: 'quiz',
-    },
+        name: '', 
+        color: '#b60000',
+        url: 'activity1',
+    }, 
     {
         id: 3,
-        name: 'Где логика?', 
+        name: '', 
+        color: '#0078c8',
+        url: 'activity2',
+    }, 
+    {
+        id: 4,
+        name: '', 
+        color: '#ffd500',
+        url: 'activity3',
+    },
+    {
+        id: 5,
+        name: '', 
+        color: '#aa00c8',
+        url: 'quiz',
+    }, 
+    {
+        id: 6,
+        name: '', 
         color: '#ff0000',
         url: 'where-logics',
     }, 
     {
-        id: 4,
-        name: 'Что? Где? Когда?', 
-        color: '#13007f',
-        url: 'www',
-    },  
+        id: 7,
+        name: '', 
+        color: '#067600',
+        url: 'activity4',
+    }, 
 ]
 
 export const QUESTIONS_MELODY = [

@@ -5,12 +5,15 @@ import Garland from './components/UI/Garland/Garland';
 import PlayinField from './pages/PlayingField/PlayingField'
 import GameMelody from './pages/GameMelody/GameMelody';
 import WhereLogics from './pages/WhereLogics/WhereLogics';
-import WhatWhereWhen from './pages/WhatWhereWhen/WhatWhereWhen';
 import FieldMelody from './components/FieldMelody/FieldMelody';
 import Cart from './components/Cart/Cart';
 
 import {QUESTIONS_MELODY} from './utils/constant'
 import Quiz from './pages/Quiz/Quiz';
+import Activity1 from './pages/Activity1/Activity1';
+import Activity2 from './pages/Activity2/Activity2';
+import Activity3 from './pages/Activity3/Activity3';
+import Activity4 from './pages/Activity4/Activity4';
 
 function App() {
   
@@ -46,7 +49,10 @@ function App() {
 
           <Route path="field/quiz" element={<Quiz/>} />
           <Route path="field/where-logics" element={<WhereLogics />} />
-          <Route path="field/www" element={<WhatWhereWhen/>} />
+          <Route path="field/activity1" element={<Activity1 />} />
+          <Route path="field/activity2" element={<Activity2 />} />
+          <Route path="field/activity3" element={<Activity3 />} />
+          <Route path="field/activity4" element={<Activity4 />} />
         </Routes>
       </BrowserRouter>
     </div>
